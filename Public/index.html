@@ -11,6 +11,7 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
+        background-color: #f4f4f4;
     }
     .container {
         text-align: center;
@@ -36,23 +37,66 @@
         margin: 0 10px;
         font-size: 24px;
     }
+      table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+      }
+    
+      th, td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+    
+      th {
+        background-color: #f2f2f2;
+      }
+    
+      tr:hover {
+        background-color: #f2f2f2;
+      }
+    
+      a {
+        text-decoration: none;
+        color: #007bff;
+      }
+    
+      a:hover {
+        text-decoration: underline;
+      }
 </style>
 </head>
 <body>
     <div class="container">
         <img class="profile-pic" src="me.jpeg" alt="Renato Medeiros">
         <h1>Renato Medeiros</h1>
-        <p>I'm a passionate developer with a keen interest in building applications. Currently focusing on AI studies.</p>
+        <p>I'm a passionate developer with a keen interest in building applications. Currently focusing on Artificial Intelligence.</p>
         <hr>
         <h3>Currently working on:</h3>
 
-        <h4>This personal portfolio</h4>
-        <p>I will use this simple portfolio to showcase my projects.</p>
-        <a href="https://github.com/RenatoasMedeiros/portfolio_renato_medeiros" target="_blank" class="github-btn"><i class="fab fa-github"></i> GitHub</a>
-        <hr>
-        <h4>Final Computer Science and Engineering Project</h4>
-        <p>This project will be my final graduation project.</p>
-        <p>No link available yet.</p>
+        <table>
+            <tr>
+              <th>Project</th>
+              <th>Description</th>
+              <th>Link</th>
+            </tr>
+            <tr>
+              <td>Personal Portfolio</td>
+              <td>I will use this simple portfolio to showcase my projects.</td>
+              <td><a href="https://github.com/RenatoasMedeiros/portfolio_renato_medeiros" target="_blank"><i class="fab fa-github"></i> GitHub</a></td>
+            </tr>
+            <tr>
+              <td>Final Computer Science and Engineering Project</td>
+              <td>This project will be my final graduation project.</td>
+              <td>No link available yet.</td>
+            </tr>
+          </table>
+          
 
         <hr>
         <h3>Contact Me:</h3>
